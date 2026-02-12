@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Prestamista Manager</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #1B5E20;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #2E7D32;
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #E8F5E9;
+        }
+        h3 {
+            color: #444;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #E8F5E9;
+            border-left: 4px solid #1B5E20;
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+        .contact {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 24px;
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px; }
+            h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">Prestamista Manager</p>
+
+        <div class="highlight">
+            <p><strong>Resumen:</strong> Prestamista Manager almacena todos tus datos exclusivamente en tu dispositivo. No recopilamos, transmitimos ni compartimos tu información con terceros.</p>
+        </div>
+
+        <h2>1. Información General</h2>
+        <p>Prestamista Manager ("la App") es una aplicación de gestión de préstamos personales desarrollada para dispositivos Android. Esta política describe cómo se manejan los datos dentro de la App.</p>
+
+        <h2>2. Datos que la App Almacena</h2>
+        <p>Para su funcionamiento, la App almacena los siguientes datos en el dispositivo del usuario:</p>
+        <ul>
+            <li><strong>Clientes:</strong> nombre, teléfono, email, dirección y notas</li>
+            <li><strong>Préstamos:</strong> monto, tasa de interés, plazo, frecuencia de pago, estado y notas</li>
+            <li><strong>Cuotas:</strong> montos, fechas de vencimiento, estados de pago</li>
+            <li><strong>Pagos:</strong> montos, fechas, tipo de pago y notas</li>
+            <li><strong>Preferencias:</strong> tema visual y configuración de la App</li>
+        </ul>
+
+        <h2>3. Almacenamiento Local</h2>
+        <div class="highlight">
+            <p><strong>Todos los datos se almacenan exclusivamente en el dispositivo del usuario</strong> utilizando una base de datos SQLite local. La App no utiliza servidores externos ni almacenamiento en la nube.</p>
+        </div>
+        <p>El código PIN de seguridad, cuando está habilitado, se almacena de forma segura mediante el sistema de almacenamiento seguro del dispositivo (Android Keystore).</p>
+
+        <h2>4. Permisos de la App</h2>
+        <h3>Acceso a Contactos</h3>
+        <p>La App solicita permiso para acceder a los contactos del dispositivo <strong>únicamente</strong> para permitir al usuario importar el nombre y teléfono de un contacto al crear un nuevo cliente. Este permiso es opcional y la App funciona completamente sin él.</p>
+        <p>La App no copia, sincroniza ni transmite la lista de contactos. Solo accede al contacto individual que el usuario selecciona manualmente.</p>
+
+        <h3>Acceso a Almacenamiento</h3>
+        <p>La App solicita acceso al almacenamiento del dispositivo para guardar y restaurar copias de seguridad (archivos JSON) cuando el usuario lo solicita explícitamente.</p>
+
+        <h2>5. Copias de Seguridad (Backup)</h2>
+        <p>La App permite al usuario exportar sus datos como un archivo JSON. Este proceso es:</p>
+        <ul>
+            <li><strong>Manual:</strong> solo se genera cuando el usuario lo solicita</li>
+            <li><strong>Local:</strong> el archivo se guarda en el dispositivo o se comparte mediante las opciones del sistema (WhatsApp, Google Drive, email, etc.)</li>
+            <li><strong>Responsabilidad del usuario:</strong> el usuario decide dónde guardar o enviar el archivo de backup</li>
+        </ul>
+        <p>La App no realiza copias de seguridad automáticas ni transmite datos a servidores externos.</p>
+
+        <h2>6. Datos que NO Recopilamos</h2>
+        <p>Prestamista Manager <strong>no</strong> realiza ninguna de las siguientes acciones:</p>
+        <ul>
+            <li>No recopila datos de uso ni analíticas externas</li>
+            <li>No transmite datos a servidores propios ni de terceros</li>
+            <li>No utiliza servicios de rastreo ni publicidad</li>
+            <li>No requiere registro de cuenta ni inicio de sesión</li>
+            <li>No accede a la ubicación del dispositivo</li>
+            <li>No accede a la cámara ni al micrófono</li>
+            <li>No comparte datos con terceros</li>
+        </ul>
+
+        <h2>7. Seguridad de los Datos</h2>
+        <p>La App implementa las siguientes medidas de seguridad:</p>
+        <ul>
+            <li>Los datos se almacenan en el espacio privado de la aplicación, inaccesible para otras apps</li>
+            <li>Opción de bloqueo por PIN para proteger el acceso a la App</li>
+            <li>El PIN se almacena de forma cifrada usando Android Keystore</li>
+        </ul>
+
+        <h2>8. Eliminación de Datos</h2>
+        <p>El usuario tiene control total sobre sus datos:</p>
+        <ul>
+            <li><strong>Eliminar datos individuales:</strong> clientes, préstamos y pagos se pueden eliminar desde la App</li>
+            <li><strong>Eliminar todos los datos:</strong> desinstalar la App elimina todos los datos almacenados de forma permanente</li>
+            <li><strong>Borrar datos de la App:</strong> desde Ajustes del dispositivo > Aplicaciones > Prestamista Manager > Almacenamiento > Borrar datos</li>
+        </ul>
+
+        <h2>9. Menores de Edad</h2>
+        <p>Esta App está diseñada para uso por adultos en el contexto de gestión financiera. No está dirigida a menores de 18 años.</p>
+
+        <h2>10. Cambios en esta Política</h2>
+        <p>Nos reservamos el derecho de actualizar esta política de privacidad. Los cambios se reflejarán en esta página con la fecha de actualización correspondiente. Se recomienda revisar esta política periódicamente.</p>
+
+        <h2>11. Contacto</h2>
+        <div class="contact">
+            <p>Si tienes preguntas sobre esta política de privacidad o sobre el manejo de datos en la App, puedes contactarnos en:</p>
+            <p><strong>Email:</strong>johanaplication@gmail.com</p>
+            <p><strong>Aplicación:</strong> Prestamista Manager</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Prestamista Manager. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
