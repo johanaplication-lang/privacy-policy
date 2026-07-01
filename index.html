@@ -87,7 +87,7 @@
         <h1>Política de Privacidad</h1>
         <p class="subtitle">
             Prestamista Manager<br>
-            Última actualización: 8 de marzo de 2026
+            Última actualización: 1 de julio de 2026
         </p>
 
         <div class="highlight">
@@ -100,7 +100,7 @@
         <h2>2. Datos que la App Almacena</h2>
         <p>Para su funcionamiento, la App almacena los siguientes datos en el dispositivo del usuario:</p>
         <ul>
-            <li><strong>Clientes:</strong> nombre, teléfono, email, dirección y notas</li>
+            <li><strong>Clientes:</strong> nombre, teléfono, email, dirección, notas y foto (opcional)</li>
             <li><strong>Préstamos:</strong> monto, tasa de interés, número de cuotas, frecuencia de pago, estado y notas</li>
             <li><strong>Cuotas:</strong> montos, fechas de vencimiento, estados de pago</li>
             <li><strong>Pagos:</strong> montos, fechas, tipo de pago y notas</li>
@@ -118,6 +118,10 @@
         <h3>Acceso a Contactos</h3>
         <p>La App solicita permiso para acceder a los contactos del dispositivo <strong>únicamente</strong> para permitir al usuario importar el nombre y teléfono de un contacto al crear un nuevo cliente. Este permiso es opcional y la App funciona completamente sin él.</p>
         <p>La App no copia, sincroniza ni transmite la lista completa de contactos. Solo accede al contacto individual que el usuario selecciona manualmente.</p>
+
+        <h3>Cámara y Galería (Foto del Cliente)</h3>
+        <p>La App solicita permiso de cámara y acceso a fotos <strong>únicamente</strong> para que el usuario pueda asignar una foto opcional a un cliente: puede tomarla con la cámara o elegir una imagen mediante el selector de fotos del sistema (la App solo recibe la imagen que el usuario selecciona, nunca la galería completa). Este permiso es opcional y la App funciona completamente sin él.</p>
+        <p>La foto se guarda exclusivamente en el almacenamiento privado de la App en el dispositivo y <strong>nunca se transmite</strong> a servidores externos ni a terceros. Al quitar o reemplazar la foto, el archivo anterior se elimina del dispositivo.</p>
 
         <h3>Acceso a Almacenamiento</h3>
         <p>La App solicita acceso al almacenamiento del dispositivo para guardar y restaurar copias de seguridad (archivos JSON) cuando el usuario lo solicita explícitamente.</p>
@@ -159,7 +163,8 @@
             <li>No utiliza servicios de rastreo externos ni herramientas de analítica de terceros</li>
             <li>No requiere registro de cuenta ni inicio de sesión</li>
             <li>No accede a la ubicación del dispositivo</li>
-            <li>No accede a la cámara ni al micrófono</li>
+            <li>No accede al micrófono</li>
+            <li>No usa la cámara ni la galería en segundo plano: solo se abren cuando el usuario decide asignar una foto a un cliente, y esa foto permanece únicamente en el dispositivo</li>
             <li>No comparte datos financieros con terceros</li>
         </ul>
 
