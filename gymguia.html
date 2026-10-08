@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - GymGuía</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #BF360C;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #E64A19;
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #FBE9E7;
+        }
+        h3 {
+            color: #444;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #FBE9E7;
+            border-left: 4px solid #BF360C;
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+        .contact {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 24px;
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px; }
+            h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">
+            GymGuía<br>
+            Última actualización: 8 de octubre de 2026
+        </p>
+
+        <div class="highlight">
+            <p><strong>Resumen:</strong> GymGuía guarda tu perfil, rutinas y entrenos solo en tu celular. No necesitas cuenta. Lo único que sale del dispositivo es la foto que tú decides escanear (para identificar la máquina con inteligencia artificial, sin guardarla), los datos de compra que procesa Google Play y, si la app falla, un reporte técnico de error sin datos personales.</p>
+        </div>
+
+        <h2>1. Información General</h2>
+        <p>GymGuía ("la App") es una aplicación para Android que ayuda a entrenar en el gimnasio: recomienda rutinas, guía cada entreno, registra el progreso e identifica máquinas a partir de una foto. Esta política explica qué datos maneja la App y para qué.</p>
+
+        <h2>2. Datos que se guardan en tu dispositivo</h2>
+        <p>Estos datos se almacenan <strong>únicamente en tu celular</strong> (base de datos local) y no se envían a ningún servidor:</p>
+        <ul>
+            <li><strong>Perfil de entrenamiento:</strong> objetivo, experiencia, días y minutos disponibles, molestias a cuidar (rodilla, espalda, hombro).</li>
+            <li><strong>Datos personales opcionales:</strong> sexo, edad, peso y estatura. Se usan solo para sugerir el peso inicial de cada ejercicio y estimar calorías. Puedes dejarlos vacíos.</li>
+            <li><strong>Rutinas, entrenos y series:</strong> ejercicios, pesos, repeticiones, tiempos y récords.</li>
+            <li><strong>Equipos de tu gimnasio</strong> que marcas en "Mi gimnasio".</li>
+            <li><strong>Escaneos:</strong> la foto reducida de la máquina y el resultado del análisis, para que puedas volver a verlos.</li>
+            <li><strong>Estadísticas de uso internas</strong> (por ejemplo, cuántos entrenos has hecho), que no salen del dispositivo.</li>
+        </ul>
+
+        <h2>3. Escáner de máquinas (inteligencia artificial)</h2>
+        <p>Cuando tú tomas o eliges una foto para escanear:</p>
+        <ul>
+            <li>La App reduce la foto y la envía a nuestro servidor intermediario (alojado en Cloudflare), que la reenvía al servicio de IA <strong>OpenRouter</strong> y a un modelo de visión (Google Gemma) para identificar la máquina.</li>
+            <li><strong>No guardamos la foto</strong> en nuestro servidor; solo se procesa para responderte. OpenRouter y el proveedor del modelo la procesan según sus propias políticas (<a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a>).</li>
+            <li>Junto con la foto se envía un <strong>identificador aleatorio de instalación</strong> (no está ligado a tu nombre, correo ni cuenta) para limitar el número de escaneos diarios y evitar abusos. Ese contador se borra automáticamente en 48 horas.</li>
+            <li>Te recomendamos no incluir personas ni datos personales en la foto.</li>
+        </ul>
+
+        <h2>4. Permisos de la App</h2>
+        <ul>
+            <li><strong>Cámara:</strong> solo para tomar la foto de una máquina cuando tú lo pides.</li>
+            <li><strong>Fotos/galería:</strong> solo para elegir una foto de una máquina cuando tú lo pides.</li>
+            <li><strong>Vibración:</strong> para avisarte cuando termina el descanso entre series.</li>
+            <li><strong>Internet:</strong> para el escáner, las compras y los reportes de errores.</li>
+            <li><strong>Facturación de Google Play:</strong> para la compra de GymGuía Pro.</li>
+        </ul>
+        <p>La App no accede a tu ubicación, contactos, micrófono ni datos de salud de otras apps.</p>
+
+        <h2>5. Compras dentro de la App (Google Play Billing)</h2>
+        <p>GymGuía Pro es un pago único. El pago lo procesa <strong>Google Play</strong>; nunca vemos ni guardamos los datos de tu tarjeta. Para verificar y restaurar la compra usamos <strong>RevenueCat</strong>, que recibe un identificador anónimo de la App y la información de la compra (producto, fecha, estado). Más información: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+        <h2>6. Reportes de errores</h2>
+        <p>Si la App se cierra inesperadamente, puede enviar un reporte técnico a <strong>Sentry</strong> (modelo de celular, versión de Android y de la App, y el error) para que podamos corregirlo. No incluye tu perfil, entrenos, fotos ni datos personales. Más información: <a href="https://sentry.io/privacy/">sentry.io/privacy</a>.</p>
+
+        <h2>7. Copias de seguridad</h2>
+        <p>La copia de seguridad es un archivo que la App genera en tu celular. Tú decides dónde guardarlo o con quién compartirlo (por ejemplo, Google Drive o WhatsApp). No lo enviamos a ningún servidor nuestro.</p>
+
+        <h2>8. Datos que NO recopilamos</h2>
+        <ul>
+            <li>No pedimos cuenta, nombre, correo ni teléfono.</li>
+            <li>No mostramos publicidad ni compartimos datos con anunciantes.</li>
+            <li>No vendemos ni compartimos tus datos con terceros, salvo los servicios descritos arriba y solo para que la App funcione.</li>
+            <li>No recopilamos ubicación.</li>
+        </ul>
+
+        <h2>9. Seguridad</h2>
+        <p>Las comunicaciones con el escáner y las compras viajan cifradas (HTTPS). Los datos locales quedan protegidos por la seguridad de tu dispositivo Android.</p>
+
+        <h2>10. Eliminación de datos</h2>
+        <ul>
+            <li>Puedes borrar rutinas, entrenos y escaneos desde la App.</li>
+            <li>Desinstalar la App elimina todos los datos guardados en el dispositivo.</li>
+            <li>También puedes ir a Ajustes del celular &gt; Aplicaciones &gt; GymGuía &gt; Almacenamiento &gt; Borrar datos.</li>
+            <li>Como no guardamos tus fotos ni datos en servidores propios, no hay datos tuyos que borrar de nuestro lado. Para la información de compra en RevenueCat, escríbenos y la eliminamos.</li>
+        </ul>
+
+        <h2>11. Salud y responsabilidad</h2>
+        <p>GymGuía ofrece orientación general de entrenamiento y no reemplaza el consejo de un médico, fisioterapeuta o entrenador. Consulta a un profesional antes de empezar si tienes alguna condición de salud. El escáner usa inteligencia artificial y puede equivocarse.</p>
+
+        <h2>12. Menores de edad</h2>
+        <p>La App no está dirigida a menores de 13 años y no recopila a sabiendas datos de menores.</p>
+
+        <h2>13. Cambios en esta política</h2>
+        <p>Si cambiamos esta política, publicaremos la nueva versión en esta página con su fecha de actualización.</p>
+
+        <h2>14. Contacto</h2>
+        <div class="contact">
+            <p>Si tienes preguntas sobre esta política o sobre tus datos, escríbenos:</p>
+            <p><strong>Email:</strong> johanaplication@gmail.com</p>
+            <p><strong>Aplicación:</strong> GymGuía</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 GymGuía.</p>
+        </div>
+    </div>
+</body>
+</html>
