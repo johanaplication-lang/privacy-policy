@@ -112,7 +112,7 @@
         <p>Cuando tú tomas o eliges una foto para escanear:</p>
         <ul>
             <li>La App reduce la foto y la envía a nuestro servidor intermediario (alojado en Cloudflare), que la reenvía al servicio de IA <strong>OpenRouter</strong> y a un modelo de visión (Google Gemma) para identificar la máquina.</li>
-            <li><strong>No guardamos la foto</strong> en nuestro servidor; solo se procesa para responderte. OpenRouter y el proveedor del modelo la procesan según sus propias políticas (<a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a>).</li>
+            <li><strong>No guardamos la foto</strong> en nuestro servidor; solo se procesa para responderte. Configuramos OpenRouter para usar <strong>únicamente proveedores que no guardan ni usan las fotos para entrenar modelos</strong>. OpenRouter y el proveedor la procesan según sus políticas (<a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a>).</li>
             <li>Junto con la foto se envía un <strong>identificador aleatorio de instalación</strong> (no está ligado a tu nombre, correo ni cuenta) para limitar el número de escaneos diarios y evitar abusos. Ese contador se borra automáticamente en 48 horas.</li>
             <li>Te recomendamos no incluir personas ni datos personales en la foto.</li>
         </ul>
